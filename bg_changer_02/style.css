@@ -23,32 +23,34 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
+  font-weight: 700;  
 }
 
 @keyframes bg_change {
 
     0%{
-        background-color: aliceblue;
+        background-color: #FEE3EC;
     }
 
     20%{
-        background-color: red;
+        background-color: #F9C5D5;
     }
 
     40%{
-        background-color: yellow;
+        background-color: #F999B7;
     }
 
     60%{
-        background-color: grey;
+        background-color: #F2789F;
     }
 
     80%{
-        background-color: salmon;
+        background-color: #513252;
     }
 
     100%{
-        background-color: aliceblue;
+        background-color: #FEE3EC;
     }
 
 }
