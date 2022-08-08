@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  /* animation: name duration animation-timinig-function animation-delay animation-itiration-count animation-direction animation-fill-mode animation-play-state; */
+  animation: bg_change 10s linear infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.container {
+  width: 30vw;
+  height: 10vh;
+  font-size: x-large;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes bg_change {
+
+    0%{
+        background-color: aliceblue;
+    }
+
+    20%{
+        background-color: red;
+    }
+
+    40%{
+        background-color: yellow;
+    }
+
+    60%{
+        background-color: grey;
+    }
+
+    80%{
+        background-color: salmon;
+    }
+
+    100%{
+        background-color: aliceblue;
+    }
+
+}
