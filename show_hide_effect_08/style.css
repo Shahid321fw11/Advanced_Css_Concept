@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color:#bed1fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    position: relative;
+    width: 30vw;
+    height: 30vh;
+    text-align: center;
+    background-color: #fff;
+    color: #073668;
+    transition: 0.4s;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    padding-top: auto;
+    padding-bottom: auto;
+    clip-path: circle(24.5% at 100% 0);
+    cursor: pointer;
+}
+
+
+h1{
+    margin: 2rem;
+}
+
+p{
+    margin: 2rem;
+    font-weight: 500;
+}
+
+.card:hover{
+    clip-path: circle(141.4% at 100% 0);
+
+}
+
