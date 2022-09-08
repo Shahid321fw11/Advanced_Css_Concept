@@ -4,8 +4,10 @@
     box-sizing: border-box;
 }
 
-body{
+.body{
     width: 100vw;
     height: 100vh;
-    background-color: aqua;
+    background-color: rgb(70, 233, 178);
+    display: grid;
+    place-items: center;
 }
